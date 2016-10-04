@@ -1,0 +1,63 @@
+<!-- Css -->
+
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node rect {
+  fill: #fff;
+  fill-opacity: .5;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+#container{
+	text-align:center;
+}
+
+#svgTree{
+	background-color : rgb(227, 227, 233); 
+	float : left;
+}
+
+#selectedNode{
+	padding:15px;
+	background-color: rgb(227, 227, 233);
+	text-align: left;
+	margin-left: 10px;
+	float: left;
+	width: 300px;
+	
+}
+
+#newAttackNode{
+	height: 250px;
+	width: 300px;
+	display: none;
+	background-color: rgb(227, 227, 233);
+	text-align: left;
+	float: left;
+	margin-left: 15px;
+	padding: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#slectedNodeTitle {
+	font-style: italic;
+}
